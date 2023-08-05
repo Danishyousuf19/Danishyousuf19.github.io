@@ -1,10 +1,12 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Inconsolata';
     /* background: url('bg.jpg'); */
     /* /* height: 1200px; */
     /* width: 1000px;  */
     color: aliceblue;
+    font-weight: bold;
 }
 
 .left {
@@ -22,7 +24,7 @@ body {
     text-align: center;
     font-size: small
 }
-.left div:hover {
+.left div a:hover {
     font-size: 15px; 
     color: #d798ff;
     /* font :bold */
@@ -37,11 +39,13 @@ body {
 }
 
 .right {
-    /* border: 2px solid rgb(0, 255, 119); */
-    display: inline-block;
+   /* border: 2px solid rgb(0, 255, 119);  */
+    display:block;
     position: absolute;
     right: 34px;
     top: 3px;
+    /* margin: auto; */
+    /* width:22%; */
 }
 
 .navbar {
@@ -70,6 +74,10 @@ body {
     font-size: large; 
 
 }
+.left a{
+text-decoration: none;
+color: white;
+}
 .left img{
     width: 58px;
     height: 26px;
@@ -80,9 +88,15 @@ body {
 .btn{
     margin: opx 9px;
     color: #ffffff;
-    background-color:transparent;
-    border:none;
-    padding: 18px 0px;
+    background-color: transparent;
+    border: none;
+    /* padding: 18px 0px; */
+    position: relative;
+    margin: auto;
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    /* top: 20px; */
+    
 }
 .btn:hover{
    /* background-color: #d798ff; */
@@ -94,7 +108,7 @@ body {
  
 .bgi{
     height: 601px;
-    width: 1225px;
+    width: 1280px;
     z-index: -1;
     position: absolute;
     margin: 0px 0px;
@@ -119,14 +133,13 @@ body {
     margin: 7px 2px;
 }
 #btt{
-    position: absolute;
-    left: 170px;
-    top: 409px;
-    /* background-color: black; */
+   text-align: center;
 }
 .cont h3{
     text-align: center;
 font-size:larger
 ;
 }
-
+.list{
+    display: inline-block;
+}
