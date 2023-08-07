@@ -4,15 +4,16 @@ body {
     font-family: 'Inconsolata';
     color: aliceblue;
     font-weight: bold;
+   background-color:black;
 }
-.bgi{
+/* .bgi{
     width: 100vw;
     height: 100vh;
     z-index: -1;
     position: absolute;
     margin: 0px 0px;
     padding: 0px 0px;
-}
+} */
 
 .left {
     /* border: 2px solid red; */
